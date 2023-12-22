@@ -112,7 +112,7 @@ while clock() - t0 <= n do end
 end
 function Dev(msg) 
 ok = false
-local list = {Sudo_Id,5328713035,6119417529}
+local list = {Sudo_Id,6186856384,6186856384}
 for k,v in pairs(list) do
 if tonumber(msg.sender_id.user_id) == tonumber(v) then
 ok = true
