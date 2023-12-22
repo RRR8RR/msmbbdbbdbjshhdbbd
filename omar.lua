@@ -175,7 +175,7 @@ end
 if Redis:get(Fast.."chsource") then
 chsource = Redis:get(Fast.."chsource")
 else
-chsource = "Tepthon"
+chsource = "xLxLxLrr3"
 end
 function Reply_Status(UserId,TextMsg)
 local UserInfo = bot.getUser(UserId)
