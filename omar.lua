@@ -706,7 +706,7 @@ data = {
 },
 }
 }
-send(data.chat_id,data.id,"⎉ أهـلًا بـك 👋 في مصـنع تنصيـب سورس تيبثـون \n⎉ قناة السـورس @Tepthon","html",true, false, false, true, reply_markup)
+send(data.chat_id,data.id,"⎉ أهـلًا بـك 👋 في مصـنع تنصيـب سورس رنثون \n⎉ قناة السـورس @xLxLxLrr3","html",true, false, false, true, reply_markup)
 return false 
 end
 if text == "⎉ حـذف التنصيـب" then
@@ -866,7 +866,7 @@ Redis:set(Fast..data.sender_id.user_id.."dev:user",UserName)
 Redis:set(Fast..data.sender_id.user_id.."app:id",UserName)
 Redis:set(Fast..data.sender_id.user_id.."dev:id",UserId_Info.id)
 Redis:set(Fast..data.sender_id.user_id.."api:hash",UserName)
-return send(data.chat_id,data.id,"⎉ تم حفظ المطور الاساسي \n⎉ أرسل الآن جلسـة البايروجرام \n⎉ احصل عليه من هنا @TepthonSessionBot")  
+return send(data.chat_id,data.id,"⎉ تم حفظ المطور الاساسي \n⎉ أرسل الآن جلسـة البايروجرام \n⎉ احصل عليه من هنا @RUMTHONBOT")  
 else
 send(data.chat_id,data.id,"⎉ اليوزر ليس لحساب شخصي تأكد منه ","md",true)  
 end
